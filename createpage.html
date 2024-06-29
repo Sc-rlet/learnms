@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hope Institute Burma</title>
+   		<link href="img/hbmlogo1.png" rel="icon" type="image/png" sizes="16x16" />
+		<link href="css/createaccount.css" rel="stylesheet" type="text/css" />
+
+
+		<style type="text/css">
+			body{
+				overflow-y: auto;
+				margin: 0px;
+				padding: 0px;
+				height: 100%;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div class="container">
+			<h2>Creating Account</h2>
+			
+			<form action="file:///D:/hiburma/homepage.html" method="get" enctype="multipart/form-data" class="move">
+			
+
+				<div class="form-group">
+					<label for="profile">Profile Picture</label>
+					<input type="file" name="profile" id="profile" class="form-control" autocomplete="off" required />
+				</div>
+					
+				<div class="form-group">
+					<label for="username">ID or Username</label>
+					<input type="text" name="username" id="username" class="form-control" placeholder="Enter ID or username" autocomplete="off" required />
+				</div>
+
+				<div class="form-group">
+					<label for="dob">Date of Birth</label>
+					<input type="date" name="dob" id="dob" class="form-control" autocomplete="off" required />
+				</div>
+
+
+				<div class="form-group">
+					<label for="gender">Gender</label>
+					<select name="gender" id="gender" class="" onautocomplete="off" required>
+						<option selected disabled>Choose your gender</option>
+						<option value="ma">Male</option>
+						<option value="fe">Female</option>
+						<option value="ot">Others</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" class="form-control" placeholder="Enter email" autocomplete="off" />
+				</div>
+
+				<div class="form-group">
+					<label for="password">Password</label>
+					<input type="password" name="password" id="password" class="form-control" placeholder="Enter password" autocomplete="off" />
+				</div>
+
+				<div class="form-group">
+					<label for="cfpassword">Comfirm Password</label>
+					<input type="password" name="cfpassword" id="cfpassword" class="form-control" placeholder="Enter comfirm password" autocomplete="off" />
+				</div>
+
+				<input type="reset" name="reset" id="reset" class="reset" value="cancel" /> 
+				<button type="submit" name="submit" id="submit" class="btn">Submit</button>
+			</form>
+		</div>
+	</body>
+</html>
