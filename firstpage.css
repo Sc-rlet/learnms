@@ -10,8 +10,6 @@
 	box-sizing: border-box;
 }
 
-
-
 body{
 	font-family: 'Anton', sans-serif;
 		/*vh - view port height*/
@@ -25,9 +23,6 @@ body{
 	overflow: hidden;
 }
 
-.move{
-	margin-left: 70px;
-}
 
 .container{
 	width: 480px;
@@ -42,31 +37,26 @@ body{
 	margin-bottom: 0;
 }
 
-/*.form{
+.form{
+			/*top&bottom left&right*/
 	padding: 30px 40px;
-}*/
+}
 
-/*.form .form-group{
+.form .form-group{
 	padding-bottom: 20px;
 	margin-bottom: 10px;
-}*/
-
-.form-group{
-	padding: 5px;
 }
 
 .form-group label{
 	display: block;
 	color: var(--gyc);
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 }
 
 .form-group .form-control{
 	font-family: inherit;
-	width: 80%;
+	width: 100%;
 	padding: 10px;
-/*	margin-left: 50px;*/
 }
 
 .form-group .form-control:focus{
@@ -94,4 +84,3 @@ body{
 .form .btn:active{
 	transform: scale(0.98);
 }
-
